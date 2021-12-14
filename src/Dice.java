@@ -17,7 +17,7 @@ public class Dice {
 
 //it is used in letsplay method inside game class
 public void randomNum(){
-    number = random.nextInt(7);
+    number = random.nextInt(6) + 1;
     System.out.println("You threw " + number);
 
 }
@@ -27,7 +27,7 @@ public void playIt(){
         int count = 0;
 
     do{
-        number = random.nextInt(7);
+        number = random.nextInt(6) +1;
         count++;
         System.out.println("Lets so what you threw " + number);
 
